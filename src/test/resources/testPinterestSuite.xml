@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Pinterest Suite">
+  <test name="pinterest">
+    <classes>
+
+      <class name="pinterest.tests.TestCreatingNewBoard">
+        <methods>
+          <include name="testCreatingNewBoard"/>
+        </methods>
+      </class> <!-- pinterest.tests.TestCreatingNewBoard -->
+
+      <class name="pinterest.tests.TestCreatingSecretBoard">
+        <methods>
+          <include name="testCreatingSecretBoard"/>
+        </methods>
+      </class> <!-- pinterest.tests.TestCreatingSecretBoard -->
+
+      <class name="pinterest.tests.TestCreatingTwoBoardsWithSameName">
+        <methods>
+          <include name="testCreatingTwoBoardsWithSameName"/>
+        </methods>
+      </class> <!-- pinterest.tests.TestCreatingTwoBoardsWithSameName -->
+
+      <class name="pinterest.tests.TestCreatingBoardWithInvalidName">
+        <methods>
+          <include name="testCreatingBoardWithInvalidName"/>
+        </methods>
+      </class> <!-- pinterest.tests.TestCreatingBoardWithInvalidName -->
+
+      <class name="pinterest.tests.TestCreatingBoardWhenSavePin">
+        <methods>
+          <include name="testCreatingBoardWhenSavePin"/>
+        </methods>
+      </class> <!-- pinterest.tests.TestCreatingBoardWhenSavePin -->
+
+    </classes>
+  </test> <!-- pinterest -->
+</suite> <!-- Test Pinterest Suite -->
